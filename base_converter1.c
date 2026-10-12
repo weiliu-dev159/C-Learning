@@ -10,6 +10,10 @@ int main() {
     printf("请输入一个十进制正整数：");
     scanf("%d", &num);
 
+    if(num < 0){
+        printf("请输入一个正整数\n");
+        renturn 0;
+    }
     
     if (num == 0) {
         printf("二进制输出：0\n");
